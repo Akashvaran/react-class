@@ -1,12 +1,16 @@
-import UseState,{ Use } from "./components/UseState";
+// import Use from "./components/UseState";
+// import UseState from "./components/UseState";
+
+import Counter from "./components/UseState";
 
 
 
 function App() {
   return (
     <>
-    <UseState/>
-    <Use/>
+    {/* <UseState/> */}
+    {/* <Use/> */}
+    <Counter/>
     </>
      
   );
