@@ -1,5 +1,6 @@
 import './App.css';
-import { Props } from './useeffect/Props';
+
+import { Usecontact } from './contaxt/Usecontact';
 // import UseEffect from './useeffect/UseEffect';
 // import { UseEffect } from './useeffect/UseEffect';
 // import { UseEffect } from './useeffect/UseEffect';
@@ -13,7 +14,8 @@ function App() {
 
       {/* <UseEffect/> */}
 
-      <Props/>
+   
+      <Usecontact/>
     </>
   );
 }
